@@ -37,6 +37,8 @@ function Login({ setIsAuthenticated }) {
         <div className="card">
           <div className="card-body">
             <h2 className="text-center mb-4">Login</h2>
+              <p className="text-center"><strong>For backend part of the project, please contact me<br/> at utkarshtiwari07@gmail.com or +91 7009250585</strong></p>
+
             {error && <div className="alert alert-danger">{error}</div>}
             <form onSubmit={handleSubmit}>
               <div className="mb-3">
